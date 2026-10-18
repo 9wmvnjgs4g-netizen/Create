@@ -35,6 +35,8 @@ Además, una revisión independiente cotejó las 63 bebidas con el texto suminis
 
 Se ajustaron titulares y marca de pie de página en pantallas estrechas, se mejoró el contraste del hero móvil y se sustituyeron símbolos no disponibles por SVG originales.
 
+La revisión visual de ambiente añadió la sección inmersiva `atmosphere`, cambió titulares, paleta y detalles gráficos y conservó los contratos funcionales. Las 43 comprobaciones de la web y las 18 de vídeo/HTML portátil volvieron a pasar. Una revisión visual adicional confirmó que portada, ticket, navegación y sección de ambiente caben a 320, 390, 768, 1024, 1440 y 1920 píxeles. Se aumentó a 8 px la leyenda que identifica la escena de ambiente como conceptual.
+
 ## Bloqueos y límites
 
 - Abrir `file://` en el Chromium administrado devolvió `ERR_BLOCKED_BY_ADMINISTRATOR`. No se verificó esa vía ni se cambiaron políticas para habilitarla. Utilizar la vía HTTP descrita en README.

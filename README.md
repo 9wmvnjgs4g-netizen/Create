@@ -20,6 +20,7 @@ El archivo principal es `index.html`. La apertura directa mediante `file://` no 
 ## Qué está implementado
 
 - Dirección visual cinematográfica, vídeo horizontal de 12 segundos en 1920 × 1080, imagen conceptual original, ilustraciones SVG, composición editorial y diseño adaptable.
+- Revisión de ambiente: titulares con más carácter, detalles de invitación y una escena amplia con madera, luz ámbar y compañía. `assets/taproom-atmosphere.webp` es una imagen original de un espacio imaginado, identificada como conceptual; no muestra el local real.
 - Menú de 63 bebidas transcritas del texto aportado: 29 house beers, 8 cocktails, 10 guest taps, 9 wines y 7 bebidas non-alcoholic. El mocktail se cuenta una sola vez y también aparece en el filtro sin alcohol.
 - Búsqueda global por nombre, estilo e ingrediente; categorías; estilos; opciones sin alcohol; carga progresiva de resultados y estado vacío.
 - Precios, graduaciones, medidas y notas específicas del texto fuente; teléfono, dirección, horarios y aviso sobre pedidos telefónicos en horas punta.
@@ -40,6 +41,8 @@ Las frases de campaña son propuestas creativas. Los vídeos animan una imagen o
 
 - `docs/HIGGSFIELD.md`: prompts completos para imagen, vídeo horizontal y pieza vertical; guía de edición y exportación.
 - `docs/LOVABLE.md`: prompt para reconstruir el concepto en Lovable, con el texto fuente incorporado.
+- `docs/VIBE-BRIEF.md`: dirección visual actualizada y prompt completo para Lovable.
+- `docs/HIGGSFIELD-VIBE.md`: prompts actualizados para el vaso y la nueva escena de ambiente.
 
 Las herramientas de Higgsfield no estuvieron disponibles para ejecutar una generación en esta sesión, incluso después de que el usuario mencionara el plugin. No se utilizaron credenciales ni créditos de esa cuenta. Los vídeos entregados se crearon localmente y ya están incluidos en la demo. Los prompts permiten preparar una versión posterior en Higgsfield. Un vídeo nuevo elegido en `Demo studio` es temporal; para incorporarlo permanentemente, sustituye `assets/growl-hero.mp4` y reconstruye el HTML con `python3 scripts/build-demo.py`.
 

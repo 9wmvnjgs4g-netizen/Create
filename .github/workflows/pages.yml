@@ -35,7 +35,7 @@ jobs:
           mkdir -p _site/docs
           cp index.html styles.css app.js menu-data.js README.md _site/
           cp -R assets _site/assets
-          cp docs/HIGGSFIELD.md _site/docs/HIGGSFIELD.md
+          cp docs/HIGGSFIELD*.md docs/VIBE-BRIEF.md _site/docs/
           touch _site/.nojekyll
 
       - name: Upload website artifact

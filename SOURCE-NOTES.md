@@ -24,6 +24,8 @@ El texto identifica el negocio y su navegación Home/About Us/Our Beer/Events/Sh
 
 ## Hipótesis de la propuesta
 
+La revisión visual solicitada como «una vibra» añade `assets/taproom-atmosphere.webp`: escena de taproom original generada con IA, con madera, luz ámbar y personas desenfocadas. No es una fotografía del negocio, ni prueba de su arquitectura, decoración o clientela. La sección de ambiente la identifica como conceptual. El archivo fuente original se conserva en el entorno de trabajo; se usa una copia WebP optimizada en la demo.
+
 Una carta extensa permite mostrar el valor de búsqueda, categorías y filtros de estilos. La dirección cinematográfica es una propuesta de marca; su efecto sobre ventas o reservas todavía no se ha medido. Se presenta como demo, no como diagnóstico probado ni garantía de mejora.
 
 ## Acceso intentado
