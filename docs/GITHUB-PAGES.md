@@ -4,6 +4,16 @@ El flujo `.github/workflows/pages.yml` publica la web estática cuando se sube u
 
 La publicación usa GitHub Actions y el token temporal del repositorio. No requiere añadir claves, contratar otro servicio ni instalar dependencias.
 
+## Estado comprobado
+
+El proyecto y este flujo ya se subieron a la rama `main` de `9wmvnjgs4g-netizen/Create`. La primera ejecución sí se inició, pero GitHub rechazó activar Pages con el token de integración: `Create Pages site failed. Resource not accessible by integration`. También informó `Get Pages site failed. Not Found`.
+
+Ejecución comprobada: https://github.com/9wmvnjgs4g-netizen/Create/actions/runs/39122130761
+
+La activación inicial requiere entrar con una cuenta que administre el repositorio en https://github.com/9wmvnjgs4g-netizen/Create/settings/pages y elegir **GitHub Actions** como origen. Después puede ejecutarse de nuevo el flujo desde Actions. No hace falta modificar el diseño ni volver a subir el vídeo.
+
+El entorno de desarrollo pudo subir y comprobar la rama mediante Git y leer el estado público de Actions. La API de GitHub y el dominio de Pages fueron bloqueados por su proxy. Se guardaron `api.github.com` y `9wmvnjgs4g-netizen.github.io` como destinos adicionales en el borrador de configuración del entorno; ese borrador requiere revisión, guardado y publicación en la configuración para aplicarse. Esto es independiente de habilitar Pages en GitHub.
+
 ## Primera publicación
 
 1. Sube el proyecto y el flujo de trabajo al repositorio autorizado.
