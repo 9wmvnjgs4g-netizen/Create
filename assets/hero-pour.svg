@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="800" viewBox="0 0 700 800" fill="none" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">An amber pour, illustrated</title>
+  <desc id="hero-desc">Original editorial artwork of a luminous amber beer glass with a soft foam crown, against a midnight teal circle, a golden sun and delicate hop branches.</desc>
+  <defs>
+    <linearGradient id="hero-disc" x1="163" y1="197" x2="593" y2="727" gradientUnits="userSpaceOnUse"><stop stop-color="#25424a"/><stop offset="1" stop-color="#102329"/></linearGradient>
+    <linearGradient id="hero-beer" x1="276" y1="338" x2="459" y2="571" gradientUnits="userSpaceOnUse"><stop stop-color="#e6b45c"/><stop offset=".3" stop-color="#c78228"/><stop offset=".6" stop-color="#e1a541"/><stop offset="1" stop-color="#9b4b20"/></linearGradient>
+    <linearGradient id="hero-glass" x1="228" y1="271" x2="469" y2="542" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf1" stop-opacity=".72"/><stop offset=".22" stop-color="#fffdf1" stop-opacity=".06"/><stop offset=".73" stop-color="#fffdf1" stop-opacity="0"/><stop offset="1" stop-color="#fffdf1" stop-opacity=".36"/></linearGradient>
+    <linearGradient id="hero-foam" x1="340" y1="247" x2="354" y2="329" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf0"/><stop offset="1" stop-color="#e0d9ba"/></linearGradient>
+    <linearGradient id="hero-glint" x1="264" y1="365" x2="300" y2="622" gradientUnits="userSpaceOnUse"><stop stop-color="#fffef0" stop-opacity=".82"/><stop offset="1" stop-color="#fffef0" stop-opacity=".05"/></linearGradient>
+    <radialGradient id="hero-drop"><stop stop-color="#fffef0" stop-opacity=".8"/><stop offset=".56" stop-color="#fffef0" stop-opacity=".08"/><stop offset="1" stop-color="#fffef0" stop-opacity=".5"/></radialGradient>
+    <pattern id="hero-bubbles" width="51" height="64" patternUnits="userSpaceOnUse"><circle cx="14" cy="13" r="1.2" fill="#fff0b8" opacity=".62"/><circle cx="39" cy="48" r="1.9" fill="#fff0b8" opacity=".35"/><circle cx="7" cy="53" r=".7" fill="#fff0b8" opacity=".65"/></pattern>
+    <filter id="hero-shadow" x="-.5" y="-1" width="2" height="3"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="hero-grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+    <clipPath id="hero-round"><circle cx="350" cy="430" r="299"/></clipPath>
+    <clipPath id="hero-liquid"><path d="M242 318C272 303 426 303 458 318L431 618C428 643 274 643 271 618Z"/></clipPath>
+  </defs>
+  <circle cx="350" cy="430" r="299" fill="url(#hero-disc)"/>
+  <g clip-path="url(#hero-round)" opacity=".12" stroke="#f5f1e7"><path d="M20 533C170 396 461 362 678 503M20 555C170 418 461 384 678 525M20 577C170 440 461 406 678 547M20 599C170 462 461 428 678 569M20 621C170 484 461 450 678 591"/><path d="M130 123 463 742M158 109 491 728M186 95 519 714" opacity=".4"/></g>
+  <circle cx="506" cy="226" r="100" fill="#d5a148"/>
+  <path d="M510 127a100 100 0 0 1 88 138" stroke="#f8dfa6" stroke-width="1.2" opacity=".55"/>
+  <circle cx="350" cy="430" r="312" stroke="#172b31" stroke-width="1" stroke-dasharray="1 11" opacity=".25"/>
+  <g stroke="#acb59a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M143 676C170 579 100 466 155 320M143 634C115 596 89 571 69 564M148 569C173 530 188 513 209 497M136 499C109 475 88 457 77 433M137 433C167 403 180 383 190 361M145 367C131 345 119 330 110 307"/>
+    <path d="M74 561C65 537 48 539 42 524C37 544 48 559 74 561ZM87 580C65 575 56 589 39 588C53 605 73 601 87 580ZM114 608C91 601 84 614 67 617C82 632 101 627 114 608ZM147 572C142 550 157 539 161 524C177 544 169 560 147 572ZM168 539C164 516 183 502 185 489C198 511 189 529 168 539ZM180 513C179 494 195 488 199 474C213 492 199 508 180 513ZM112 478C89 478 80 464 68 458C88 449 103 457 112 478ZM89 452C68 447 66 429 54 419C77 416 89 430 89 452ZM144 425C147 404 166 400 172 389C181 412 165 423 144 425ZM165 399C166 378 181 370 185 356C198 374 185 392 165 399ZM137 356C117 355 111 340 100 332C121 325 135 336 137 356Z" fill="#acb59a" fill-opacity=".1"/>
+    <path d="M189 362C181 343 190 326 203 314C215 332 211 349 189 362Z" fill="#d9d9c3" fill-opacity=".18"/>
+    <path d="M190 350 203 314M185 341 202 333M190 329 201 324"/>
+  </g>
+  <ellipse cx="354" cy="674" rx="143" ry="24" fill="#06151a" opacity=".65" filter="url(#hero-shadow)"/>
+  <ellipse cx="350" cy="667" rx="109" ry="16" fill="#d5a148" opacity=".13"/>
+  <path d="M231 279C244 261 456 261 469 279L439 628C436 662 264 662 261 628Z" fill="url(#hero-glass)" stroke="#eee9d2" stroke-opacity=".58" stroke-width="1.5"/>
+  <path d="M242 318C272 303 426 303 458 318L431 618C428 643 274 643 271 618Z" fill="url(#hero-beer)"/>
+  <g clip-path="url(#hero-liquid)">
+    <path d="M238 310H464V650H238Z" fill="url(#hero-bubbles)"/>
+    <path d="M251 321 281 621M447 322 421 623" stroke="#f5ce74" stroke-width="9" opacity=".28"/>
+    <path d="M365 321C326 419 421 527 371 649" stroke="#ffcc5f" stroke-width="61" opacity=".07"/>
+  </g>
+  <ellipse cx="350" cy="316" rx="108" ry="25" fill="#b97827"/>
+  <path d="M240 281C241 263 275 249 306 251C323 235 354 237 370 245C402 239 449 255 459 270C473 278 469 304 459 317C444 330 426 319 414 325C397 333 380 322 368 326C344 333 328 320 312 326C290 333 276 318 262 321C245 324 237 307 240 281Z" fill="url(#hero-foam)"/>
+  <path d="M251 278C277 264 300 273 315 260C331 248 351 258 367 256C401 250 422 270 445 269" stroke="#fffef5" stroke-opacity=".8" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#c5bb98" opacity=".45"><circle cx="269" cy="297" r="2"/><circle cx="275" cy="291" r="1.5"/><circle cx="309" cy="310" r="2"/><circle cx="322" cy="291" r="1.2"/><circle cx="344" cy="307" r="2.6"/><circle cx="351" cy="300" r="1"/><circle cx="383" cy="284" r="1.7"/><circle cx="397" cy="312" r="1.6"/><circle cx="421" cy="293" r="2"/><circle cx="439" cy="301" r="1.4"/></g>
+  <path d="M232 279C240 292 277 300 316 302M469 279C465 291 441 297 423 299" stroke="#fff9e7" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250 335 274 607C275 618 281 623 291 625L271 343Z" fill="url(#hero-glint)"/>
+  <path d="M445 345 424 604" stroke="#fff9e7" stroke-width="2" stroke-linecap="round" opacity=".57"/>
+  <path d="M277 635C305 645 394 647 422 635" stroke="#fffae8" stroke-opacity=".67" stroke-width="3" stroke-linecap="round"/>
+  <path d="M270 647C297 660 408 661 432 645" stroke="#e7e9df" stroke-opacity=".34" stroke-width="2" stroke-linecap="round"/>
+  <g fill="url(#hero-drop)" stroke="#fff7da" stroke-opacity=".24" stroke-width=".6">
+    <ellipse cx="280" cy="357" rx="4.5" ry="6"/><ellipse cx="294" cy="410" rx="3.5" ry="5"/><ellipse cx="278" cy="452" rx="5" ry="7"/><ellipse cx="312" cy="482" rx="3" ry="4"/><ellipse cx="288" cy="548" rx="4.5" ry="6"/><ellipse cx="317" cy="370" rx="2.5" ry="3.7"/><ellipse cx="338" cy="440" rx="4" ry="5.5"/><ellipse cx="373" cy="377" rx="3" ry="4"/><ellipse cx="407" cy="420" rx="5" ry="6.7"/><ellipse cx="420" cy="361" rx="3.5" ry="5"/><ellipse cx="403" cy="517" rx="3.8" ry="5.4"/><ellipse cx="369" cy="572" rx="3" ry="4.4"/><ellipse cx="414" cy="587" rx="4" ry="5.5"/>
+  </g>
+  <path d="M518 521C529 502 551 500 563 488C564 509 552 523 530 523M530 523C548 527 558 540 577 541C560 556 540 545 530 523ZM530 523C527 546 514 553 512 571C496 553 508 534 530 523Z" fill="#acb59a" fill-opacity=".11" stroke="#acb59a" stroke-width="1.2"/>
+  <path d="M497 611C534 580 548 550 530 523" stroke="#acb59a" stroke-width="1.2"/>
+  <circle cx="555" cy="614" r="3" fill="#d5a148"/>
+  <circle cx="570" cy="601" r="1.5" fill="#d5a148" opacity=".7"/>
+  <path d="m191 216 4-11 4 11 11 4-11 4-4 11-4-11-11-4Z" fill="#d5a148"/>
+  <path d="M258 713H443" stroke="#172b31" stroke-opacity=".16"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" fill="none" role="img" aria-labelledby="kitchen-title kitchen-desc">
+  <title id="kitchen-title">A place at the table</title>
+  <desc id="kitchen-desc">Original abstract editorial still life of ceramic plates, linen, cutlery and botanical shapes. A conceptual table setting, rather than a photograph or depiction of a menu item.</desc>
+  <defs>
+    <linearGradient id="kitchen-table" x1="0" y1="0" x2="600" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#d9d9c3"/><stop offset="1" stop-color="#bfc7ac"/></linearGradient>
+    <linearGradient id="kitchen-plate" x1="156" y1="95" x2="418" y2="328" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf3"/><stop offset="1" stop-color="#e9e4d4"/></linearGradient>
+    <filter id="kitchen-shadow" x="-.3" y="-.3" width="1.7" height="1.7"><feGaussianBlur stdDeviation="10"/></filter>
+    <pattern id="kitchen-weave" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 .5H8M.5 0V8" stroke="#fff9e7" stroke-opacity=".12" stroke-width="1"/></pattern>
+  </defs>
+  <path fill="url(#kitchen-table)" d="M0 0H600V420H0Z"/>
+  <path d="M0 0H134L256 420H0Z" fill="#c85c3c"/>
+  <path d="M0 0H134L256 420H0Z" fill="url(#kitchen-weave)"/>
+  <path d="M29 0 151 420M39 0 161 420" stroke="#e6a18a" stroke-width="1" opacity=".65"/>
+  <ellipse cx="309" cy="234" rx="158" ry="145" fill="#172b31" opacity=".13" filter="url(#kitchen-shadow)"/>
+  <circle cx="293" cy="209" r="149" fill="url(#kitchen-plate)"/>
+  <circle cx="293" cy="209" r="137" stroke="#d6d1bd" stroke-width="1"/>
+  <circle cx="293" cy="209" r="112" stroke="#ddd6bf" stroke-width="1.5"/>
+  <circle cx="293" cy="209" r="107" fill="#f2eddf"/>
+  <path d="M222 222C209 192 226 153 254 147C279 141 302 158 309 177C320 207 300 250 274 260C251 270 233 246 222 222Z" fill="#c85c3c"/>
+  <path d="M231 219C219 194 237 163 256 158C275 153 291 168 296 182" stroke="#e6a18a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M321 180C334 171 357 180 366 197C376 215 369 247 351 261C330 278 305 270 299 252C293 233 310 187 321 180Z" fill="#d5a148"/>
+  <path d="M319 197C329 187 344 189 351 198M310 230C323 221 343 228 347 242" stroke="#f6ce79" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#172b31"><ellipse cx="293" cy="152" rx="9" ry="15" transform="rotate(-37 293 152)"/><ellipse cx="316" cy="141" rx="8" ry="14" transform="rotate(24 316 141)"/><ellipse cx="336" cy="157" rx="7" ry="12" transform="rotate(51 336 157)"/><ellipse cx="274" cy="284" rx="7" ry="11" transform="rotate(-43 274 284)"/></g>
+  <path d="M287 169C299 159 308 157 329 158M296 167C297 154 306 143 316 140M265 269 276 285" stroke="#50634b" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#f5f1e7"><circle cx="249" cy="187" r="2.4"/><circle cx="262" cy="198" r="1.7"/><circle cx="251" cy="211" r="1.8"/><circle cx="278" cy="178" r="1.6"/><circle cx="333" cy="246" r="1.8"/><circle cx="344" cy="224" r="1.4"/></g>
+  <g fill="#c85c3c"><circle cx="220" cy="267" r="3"/><circle cx="227" cy="276" r="1.7"/><circle cx="363" cy="163" r="2.5"/><circle cx="372" cy="169" r="1.5"/></g>
+  <path d="M230 142C248 127 264 124 278 127" stroke="#d5a148" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#172b31" stroke-linecap="round">
+    <path d="M470 116V197C470 211 480 214 480 229V336" stroke-width="6"/>
+    <path d="M462 114V162M470 114V165M478 114V162M486 114V158C486 174 470 177 470 193" stroke-width="3"/>
+    <path d="M515 120C495 146 499 200 515 211V336" stroke-width="6"/>
+    <path d="M515 120V211" stroke-width="3"/>
+  </g>
+  <g transform="translate(482 -34) rotate(19)">
+    <ellipse cx="40" cy="99" rx="44" ry="49" fill="#172b31" opacity=".1"/>
+    <circle cx="32" cy="77" r="45" fill="#f5f1e7" fill-opacity=".35" stroke="#f5f1e7" stroke-width="2"/>
+    <circle cx="32" cy="77" r="36" fill="#d5a148"/><circle cx="32" cy="77" r="30" stroke="#e9bf70" stroke-width="1"/>
+    <path d="M14 64C20 51 36 48 47 54" stroke="#f9de9e" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="46" cy="88" r="2" fill="#f7dfae"/><circle cx="40" cy="97" r="1.5" fill="#f7dfae"/>
+  </g>
+  <g opacity=".8" stroke="#50634b" stroke-width="1.3" stroke-linecap="round"><path d="M14 362C54 341 82 351 115 384M48 351C46 335 49 325 57 314M72 357C78 343 87 337 99 336"/><path d="M47 340C31 338 25 326 24 317C41 318 48 327 47 340ZM50 335C48 319 57 309 66 304C71 320 64 329 50 335ZM83 346C85 331 97 326 107 326C104 341 97 346 83 346ZM67 356C61 371 49 375 38 372C43 358 54 353 67 356ZM94 369C90 383 76 390 66 386C72 374 81 369 94 369Z" fill="#50634b" fill-opacity=".19"/></g>
+  <path d="M600 364C555 357 551 398 566 420H600Z" fill="#172b31"/>
+</svg>
